@@ -66,3 +66,23 @@ header {
    display: flex;
    justify-content: space-evenly;
 }
+
+@media (min-width: 767px) {
+   body {
+      background-color: #383838;
+   }
+   .App {
+      width: 50%;
+      margin: 0 auto;
+   }
+}
+
+@media (min-width: 1023px) {
+   body {
+      background-color: #383838;
+   }
+   .App {
+      width: 30%;
+      margin: 0 auto;
+   }
+}
